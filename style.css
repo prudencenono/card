@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+body {
+    background-color: lightslategray;
+    font-family: playball;
+
+}
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.card 
+{
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 151%;
+}
+
+button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: beige;
+    background-color: steelblue;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: all 200s ease-in-out;
+}
+
+button:focus, button:hover {
+    background-color: beige;
+    color: steelblue;
+}
